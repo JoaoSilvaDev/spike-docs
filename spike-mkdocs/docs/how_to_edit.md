@@ -7,6 +7,7 @@
 4. cd into the folder in the repo "spike-mkdocs"
 5. To preview the docs -> 'mkdocs serve'
 7. To deply the docs -> 'mkdocs gh-deploy'
+8. Remember to also push your changes to the spike-docs repo after editing
 
 ## Adding a new page
 1. Create a .md file inside the docs folder.
