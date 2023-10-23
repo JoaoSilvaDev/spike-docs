@@ -1,1 +1,14 @@
-site_name: My Docs
+site_name: Spike!
+site_url: https://joaosilvadev.github.io/spike-docs/
+nav:
+  - Index: index.md
+  - How to Edit Docs: how_to_edit.md
+  
+  - ⚙️ Technical Docs ⚙️:
+    - Overview: tech_overview.md
+    - Networking: tech_networking.md
+
+  - 🕹️ Game Design Docs 🕹️:
+    - Overview: design_overview.md
+    - Gameplay: design_gameplay.md
+theme: readthedocs
