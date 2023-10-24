@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://joaosilvadev.github.io/spike-docs/tech_overview/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://joaosilvadev.github.io/spike-docs/design_character_package/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Overview - Spike!</title>
+    <title>Character Package - Spike!</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Overview";
-        var mkdocs_page_input_path = "tech_overview.md";
-        var mkdocs_page_url = "/spike-docs/tech_overview/";
+        var mkdocs_page_name = "Character Package";
+        var mkdocs_page_input_path = "design_character_package.md";
+        var mkdocs_page_url = "/spike-docs/design_character_package/";
       </script>
     
     <!--[if lt IE 9]>
@@ -48,23 +48,43 @@
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">⚙️ Technical Docs ⚙️</span></p>
-              <ul class="current">
-                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Overview</a>
-    <ul class="current">
-    </ul>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../tech_overview/">Overview</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../tech_networking/">Networking</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">🕹️ Game Design Docs 🕹️</span></p>
-              <ul>
+              <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="../design_overview/">Overview</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../design_gameplay/">Gameplay</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../design_characters/">Characters</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../design_character_package/">Character Package</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Character Package</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#info">Info</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#design">Design</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#art">Art</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#core-animations">Core animations</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#additional-animations">Additional animations</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ui">UI</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#vfx">VFX</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sfx">SFX</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#skins">Skins</a>
+    </li>
+    </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../design_skins/">Skins</a>
                   </li>
@@ -83,8 +103,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-          <li class="breadcrumb-item">⚙️ Technical Docs ⚙️</li>
-      <li class="breadcrumb-item active">Overview</li>
+          <li class="breadcrumb-item">🕹️ Game Design Docs 🕹️</li>
+      <li class="breadcrumb-item active">Character Package</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -93,13 +113,103 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="overview">Overview</h1>
+                <h1 id="character-package">Character Package</h1>
+<h3 id="info">Info</h3>
+<ul>
+<li>name</li>
+<li>character number</li>
+<li>description</li>
+<li>story background <em>(do we need these? TBD)</em></li>
+<li>class <em>(do we need these? TBD)</em></li>
+</ul>
+<hr />
+<h3 id="design">Design</h3>
+<ul>
+<li>base character variables (movement, hit)</li>
+<li>animation hitboxes</li>
+<li>ability</li>
+</ul>
+<hr />
+<h3 id="art">Art</h3>
+<h4 id="core-animations">Core animations</h4>
+<ul>
+<li>idle</li>
+<li>run</li>
+<li>run_to_idle</li>
+<li>air_up</li>
+<li>air_mid</li>
+<li>air_down</li>
+<li>air_to_ground</li>
+<li>crouch</li>
+<li>hit_air_up</li>
+<li>hit_air_tilt_up</li>
+<li>hit_air_tilt_down</li>
+<li>hit_air_down</li>
+<li>hit_ground_up</li>
+<li>hit_ground_tilt_up</li>
+<li>hit_gound_tilt_dow</li>
+<li>hit_ground_down</li>
+<li>pass_air_up</li>
+<li>pass_air_tilt_up</li>
+<li>pass_air_tilt_down</li>
+<li>pass_air_down</li>
+<li>pass_ground_up</li>
+<li>pass_ground_tilt_up</li>
+<li>pass_gound_tilt_dow</li>
+<li>pass_ground_down</li>
+<li>high_five</li>
+<li>victory</li>
+<li>defeat</li>
+<li>character_select_idle</li>
+<li>character_selet_confirm</li>
+<li>serve_idle</li>
+<li>serve_throw_start</li>
+<li>serve_throw_end</li>
+</ul>
+<h4 id="additional-animations">Additional animations</h4>
+<ul>
+<li>ability related animations</li>
+</ul>
+<hr />
+<h3 id="ui">UI</h3>
+<ul>
+<li>character selection portrait <em>(size TBD)</em></li>
+<li>icon <em>(size TBD)</em></li>
+</ul>
+<hr />
+<h3 id="vfx">VFX</h3>
+<ul>
+<li>jump</li>
+<li>pass_ball</li>
+<li>hit_ball</li>
+<li>run_to_idle</li>
+<li>air_to_ground</li>
+<li>ability specific vfx</li>
+</ul>
+<hr />
+<h3 id="sfx">SFX</h3>
+<ul>
+<li>feet_squeek (+4 variations)</li>
+<li>hit (+2 variations)</li>
+<li>pass (+2 variations)</li>
+<li>dig (+2 variations)</li>
+<li>jump (+2 variations)</li>
+<li>land (+2 variations)</li>
+<li>ability</li>
+<li>character selection sfx (tied to the animation)</li>
+</ul>
+<hr />
+<h3 id="skins"><a href="../design_skins/">Skins</a></h3>
+<ul>
+<li>2 basic alternate (just color charge)</li>
+<li><em>(other skins TBD)</em></li>
+</ul>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../how_to_edit/" class="btn btn-neutral float-left" title="How to Edit Docs"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../tech_networking/" class="btn btn-neutral float-right" title="Networking">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../design_characters/" class="btn btn-neutral float-left" title="Characters"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../design_skins/" class="btn btn-neutral float-right" title="Skins">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -122,10 +232,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../how_to_edit/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../design_characters/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../tech_networking/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../design_skins/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

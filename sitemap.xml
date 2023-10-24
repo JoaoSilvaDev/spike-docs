@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://joaosilvadev.github.io/spike-docs/design_character_package/</loc>
+         <lastmod>2023-10-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://joaosilvadev.github.io/spike-docs/design_characters/</loc>
          <lastmod>2023-10-24</lastmod>
          <changefreq>daily</changefreq>
@@ -17,6 +22,11 @@
     </url>
     <url>
          <loc>https://joaosilvadev.github.io/spike-docs/design_overview/</loc>
+         <lastmod>2023-10-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://joaosilvadev.github.io/spike-docs/design_skins/</loc>
          <lastmod>2023-10-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
