@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://joaosilvadev.github.io/spike-docs/tech_networking/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://joaosilvadev.github.io/spike-docs/design_characters/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Networking - Spike!</title>
+    <title>Characters - Spike!</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Networking";
-        var mkdocs_page_input_path = "tech_networking.md";
-        var mkdocs_page_url = "/spike-docs/tech_networking/";
+        var mkdocs_page_name = "Characters";
+        var mkdocs_page_input_path = "design_characters.md";
+        var mkdocs_page_url = "/spike-docs/design_characters/";
       </script>
     
     <!--[if lt IE 9]>
@@ -48,21 +48,31 @@
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">⚙️ Technical Docs ⚙️</span></p>
-              <ul class="current">
+              <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../tech_overview/">Overview</a>
                   </li>
-                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Networking</a>
-    <ul class="current">
-    </ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../tech_networking/">Networking</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">🕹️ Game Design Docs 🕹️</span></p>
-              <ul>
+              <ul class="current">
                   <li class="toctree-l1"><a class="reference internal" href="../design_overview/">Overview</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../design_gameplay/">Gameplay</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../design_characters/">Characters</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Characters</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#list-of-character-components">List of character components</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#design">Design</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#art">Art</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#sound">Sound</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
                   </li>
               </ul>
       </div>
@@ -79,8 +89,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-          <li class="breadcrumb-item">⚙️ Technical Docs ⚙️</li>
-      <li class="breadcrumb-item active">Networking</li>
+          <li class="breadcrumb-item">🕹️ Game Design Docs 🕹️</li>
+      <li class="breadcrumb-item active">Characters</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -89,13 +99,29 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="networking">Networking</h1>
+                <h1 id="characters">Characters</h1>
+<h2 id="list-of-character-components">List of character components</h2>
+<h3 id="design">Design</h3>
+<h3 id="art">Art</h3>
+<p>Core animations</p>
+<ul>
+<li>idle</li>
+<li>run</li>
+<li>run_to_idle</li>
+<li>air_up</li>
+<li>air_mid</li>
+<li>air_down</li>
+</ul>
+<p>Additional animations
+- ability</p>
+<p>Portrait
+!! size?</p>
+<h3 id="sound">Sound</h3>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../tech_overview/" class="btn btn-neutral float-left" title="Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../design_overview/" class="btn btn-neutral float-right" title="Overview">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../design_gameplay/" class="btn btn-neutral float-left" title="Gameplay"><span class="icon icon-circle-arrow-left"></span> Previous</a>
     </div>
 
   <hr/>
@@ -118,10 +144,8 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../tech_overview/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../design_gameplay/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
-    
-      <span><a href="../design_overview/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
