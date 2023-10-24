@@ -11,4 +11,7 @@ nav:
   - 🕹️ Game Design Docs 🕹️:
     - Overview: design_overview.md
     - Gameplay: design_gameplay.md
+    - Characters: design_characters.md
+    - Character Package: design_character_package.md
+    - Skins: design_skins.md
 theme: readthedocs
