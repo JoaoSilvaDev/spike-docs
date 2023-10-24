@@ -5,11 +5,11 @@
 2. Install Node.js
 3. Run 'pip install mkdocs'
 4. cd into the folder in the repo "spike-mkdocs"
-5. Preview the docs by running 'mkdocs serve'
 
-## Updating the changes
-1. Push your changes
-2. Deploy the docs by running 'mkdocs gh-deploy'
+## Making changes
+1. Preview the docs by running 'mkdocs serve'
+2. Push your changes
+3. Deploy the docs by running 'mkdocs gh-deploy'
 
 ## Adding a new page
 1. Create a .md file inside the docs folder.
